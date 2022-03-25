@@ -14,6 +14,10 @@ Dog.prototype.allowBoarding = function () {
         console.log(this.name + " is prohibited from being transported!");
     }
 }
+bobik.allowBoarding = function () {
+    console.log("WOOOF WOOOF!!!")
+}
 
 tuzik.allowBoarding();
 mukhtar.allowBoarding();
+bobik.allowBoarding();
