@@ -1,8 +1,8 @@
 function Dog(name, weight, vaccinated, sitting) {
-    this.name = name,
-    this.weight = weight,
-    this.vaccinated = vaccinated,
-    this.sitting = sitting
+    this.name = name;
+    this.weight = weight;
+    this.vaccinated = vaccinated;
+    this.sitting = sitting;
 }
 let bobik = new Dog("Bobik", 15,false, true);
 let mukhtar = new Dog("Mukhtar", 35, true, true);
